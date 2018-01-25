@@ -25,4 +25,5 @@ exports.Card2 = function(session){
                 builder.CardAction.openUrl(session, 'https://docs.botframework.com/en-us/', 'Aprende')
             ]);
             return(card);
+            
 };
